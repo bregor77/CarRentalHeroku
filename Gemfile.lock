@@ -272,7 +272,7 @@ DEPENDENCIES
   httparty (~> 0.21.0)
   importmap-rails
   jbuilder
-  pg
+  pg (~> 1.4, >= 1.4.5)
   puma (~> 5.0)
   rails (~> 7.0.4)
   ransack (~> 3.2)

@@ -60,7 +60,7 @@ group :development, :test do
   gem 'ruby_audit'
 
   # Database
-  gem 'pg'
+  # gem 'pg'
 
   # Linting
   gem 'rubocop'
@@ -79,10 +79,10 @@ group :development do
   # gem "spring"
 end
 
-# group :production do
-#   # gem 'pg', '~> 1.4', '>= 1.4.5'
-#   gem 'pg'
-# end
+group :production do
+  gem 'pg', '~> 1.4', '>= 1.4.5'  
+  # gem 'pg'
+end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
