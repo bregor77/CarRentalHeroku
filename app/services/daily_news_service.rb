@@ -4,8 +4,8 @@
 class DailyNewsService
   # https://newsapi.org/v2/everything?q='tesla elon musk'&from=2022-12-22&to=2022-12-22&sortBy=publishedAt&language=en&apiKey=186c5be645b046d0a0abcc71971e6867
   BASE_URL2 = 'https://newsapi.org/v2/everything'
-  API_KEY2 = '186c5be645b046d0a0abcc71971e6867'
-  # API_KEY2 = ENV['DAILY_NEWS_API_KEY']
+  # API_KEY2 = '186c5be645b046d0a0abcc71971e6867'
+  API_KEY2 = ENV['DAILY_NEWS_API_KEY']
 
   def initialize(querry:, from:, sortby:, language:)
     @querry = querry
